@@ -93,7 +93,7 @@ QUAN TRỌNG:
                     <version>1.0.0.0</version>
 
                     <!-- ② SỬA LINK ZIP DROPBOX TẠI ĐÂY -->
-                    <url>https://www.dropbox.com/URL-GOI-UPDATE?dl=1</url>
+                    <url>https://www.dropbox.com/scl/fi/rgxu1lluw59m7ipt8x9w0/GeoFC.zip?rlkey=d9l2cj8qpgcx6ow40ekocy6uw&st=3ry44tl4&dl=0</url>
 
                     <!-- ③ LINK NHẬT KÝ THAY ĐỔI -->
                     <changelog>https://raw.githubusercontent.com/quydohcmut/AutoUpdateServer/main/changelogs/BKStructural.md</changelog>
