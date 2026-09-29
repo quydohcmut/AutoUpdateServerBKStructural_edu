@@ -1,7 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
-<item>
-    <version>1.0.0.0</version>
-    <url>https://www.dropbox.com/scl/fi/zjfxhloxp8646y74y7k1m/Update_v1.0.1.zip?rlkey=wuekpdk8ux3hxa9s4olxtgcpj&amp;st=zm4u9z99&amp;dl=1</url>
-    <changelog>https://github.com/quydohcmut/AutoUpdateServerBKStructural_edu</changelog>
-    <mandatory>false</mandatory>
-</item>
+
+<!--
+==========================================================
+        AUTO UPDATE SERVER - QUẢN LÝ NHIỀU ỨNG DỤNG
+==========================================================
+
+HƯỚNG DẪN PHÁT HÀNH PHIÊN BẢN MỚI:
+
+1. Build phiên bản mới của ứng dụng.
+   Ví dụ:
+       1.0.1.0
+
+2. Đóng gói các file cần cập nhật thành ZIP.
+   Ví dụ:
+       BKStructural_1.0.1.zip
+
+3. Upload file ZIP lên Dropbox.
+
+4. Lấy link tải trực tiếp của file ZIP.
+
+5. Tìm đúng ứng dụng bên dưới:
+       <app id="BKStructural">
+
+6. Tìm <release> đang là phiên bản mới nhất.
+
+7. CẬP NHẬT 2 DÒNG:
+       <version>...</version>
+       <url>...</url>
+
+8. Cập nhật nội dung changelog nếu cần.
+
+9. Commit thay đổi lên GitHub.
+
+QUAN TRỌNG:
+- Không đổi giá trị App ID sau khi ứng dụng đã phát hành.
+- Không xóa release cũ nếu hệ thống cần lịch sử phiên bản.
+- <version> phải lớn hơn phiên bản hiện tại.
+- <url> phải trỏ đúng tới file ZIP mới.
+- <mandatory>false</mandatory> = người dùng có thể bỏ qua.
+- <mandatory>true</mandatory>  = bắt buộc cập nhật.
+
+==========================================================
+-->
+
+<updateServer>
+
+    <apps>
+
+        <!-- =================================================
+             ỨNG DỤNG: BK STRUCTURAL
+             App ID: BKStructural
+
+             MỖI LẦN CÓ BẢN MỚI:
+             - Đổi <version>
+             - Đổi <url>
+             - Có thể cập nhật <changelog>
+             ================================================= -->
+
+        <app id="BKStructural">
+
+            <name>BK Structural Tools</name>
+
+            <releases>
+
+                <!--
+                =================================================
+                PHIÊN BẢN ĐANG PHÁT HÀNH
+
+                CẦN SỬA KHI RA BẢN MỚI:
+
+                ① version
+                   Phiên bản mới.
+
+                ② url
+                   Link file ZIP mới trên Dropbox.
+
+                ③ changelog
+                   Link nhật ký thay đổi.
+
+                ④ mandatory
+                   false = không bắt buộc
+                   true  = bắt buộc
+                =================================================
+                -->
+
+                <release>
+
+                    <!-- ① SỬA PHIÊN BẢN TẠI ĐÂY -->
+                    <version>1.0.1.0</version>
+
+                    <!-- ② SỬA LINK ZIP DROPBOX TẠI ĐÂY -->
+                    <url>https://www.dropbox.com/URL-GOI-UPDATE?dl=1</url>
+
+                    <!-- ③ LINK NHẬT KÝ THAY ĐỔI -->
+                    <changelog>https://raw.githubusercontent.com/quydohcmut/AutoUpdateServer/main/changelogs/BKStructural.md</changelog>
+
+                    <!-- ④ false = cho phép bỏ qua / true = bắt buộc -->
+                    <mandatory>false</mandatory>
+
+                </release>
+
+            </releases>
+
+        </app>
+
+    </apps>
+
+</updateServer>
+
