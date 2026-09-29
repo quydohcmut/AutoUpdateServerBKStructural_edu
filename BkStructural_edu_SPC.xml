@@ -1,1 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
 
+<!--
+==========================================================
+        AUTO UPDATE SERVER - QUẢN LÝ NHIỀU ỨNG DỤNG
+==========================================================
+
+HƯỚNG DẪN PHÁT HÀNH PHIÊN BẢN MỚI:
+
+1. Build phiên bản mới của ứng dụng.
+   Ví dụ:
+       1.0.1.0
+Số đầu tiên (1 - Major): Phiên bản chính. Con số này thay đổi khi có sự lột xác lớn hoặc thay đổi cấu trúc toàn diện, đánh dấu một sản phẩm đã hoàn thiện thương mại hoặc thay đổi logic không tương thích ngược với bản cũ.
+Số thứ hai (0 - Minor): Phiên bản phụ. Con số này tăng lên khi nhà phát triển bổ sung thêm các tính năng mới hoặc thay đổi nhỏ nhưng vẫn giữ nguyên sự tương thích với hệ thống hiện tại.
+Số thứ ba (1 - Patch / Build / Revision): Bản vá lỗi. Con số này thay đổi khi có các bản cập nhật nhỏ sửa lỗi kỹ thuật, vá lỗ hổng bảo mật hoặc tinh chỉnh hiệu năng mà không thêm tính năng lớn.
+Số thứ tư (0 - Build / Revision / Subversion): Mã hiển thị số lần biên dịch (build) hoặc bản sửa đổi nội bộ. Số này tăng lên mỗi khi lập trình viên đóng gói lại (compile/build) mã nguồn để thử nghiệm hoặc phát hành bản vá nhỏ sát thời điểm đó.
+2. Đóng gói các file cần cập nhật thành ZIP.
+   Ví dụ:
+       BKStructural_1.0.1.zip
+
+3. Upload file ZIP lên Dropbox.
+
+4. Lấy link tải trực tiếp của file ZIP.
+
+5. Tìm đúng ứng dụng bên dưới:
+       <app id="BKStructural">
+
+6. Tìm <release> đang là phiên bản mới nhất.
+
+7. CẬP NHẬT 2 DÒNG:
+       <version>...</version>
+       <url>...</url>
+
+8. Cập nhật nội dung changelog nếu cần.
+
+9. Commit thay đổi lên GitHub.
+
+QUAN TRỌNG:
+- Không đổi giá trị App ID sau khi ứng dụng đã phát hành.
+- Không xóa release cũ nếu hệ thống cần lịch sử phiên bản.
+- <version> phải lớn hơn phiên bản hiện tại.
+- <url> phải trỏ đúng tới file ZIP mới.
+- <mandatory>false</mandatory> = người dùng có thể bỏ qua.
+- <mandatory>true</mandatory>  = bắt buộc cập nhật.
+
+==========================================================
+-->
+
+<updateServer>
+
+    <apps>
+
+        <!-- =================================================
+             ỨNG DỤNG: BK STRUCTURAL
+             App ID: BKStructural
+
+             MỖI LẦN CÓ BẢN MỚI:
+             - Đổi <version>
+             - Đổi <url>
+             - Có thể cập nhật <changelog>
+             ================================================= -->
+
+        <app id="BIM_STRUCTURAL_TOOLS_EDUCATION_SPC">
+
+            <name>BKStructuralTools.SPC_Education </name>
+
+            <releases>
+
+                <!--
+                =================================================
+                PHIÊN BẢN ĐANG PHÁT HÀNH
+
+                CẦN SỬA KHI RA BẢN MỚI:
+
+                ① version
+                   Phiên bản mới.
+
+                ② url
+                   Link file ZIP mới trên Dropbox.
+
+                ③ changelog
+                   Link nhật ký thay đổi.
+
+                ④ mandatory
+                   false = không bắt buộc
+                   true  = bắt buộc
+                =================================================
+                -->
+
+                <release>
+
+                    <!-- ① SỬA PHIÊN BẢN TẠI ĐÂY -->
+                    <version>1.0.0.0</version>
+
+                    <!-- ② SỬA LINK ZIP DROPBOX TẠI ĐÂY -->
+                    <url>https://www.dropbox.com/URL-GOI-UPDATE?dl=1</url>
+
+                    <!-- ③ LINK NHẬT KÝ THAY ĐỔI -->
+                    <changelog>https://raw.githubusercontent.com/quydohcmut/AutoUpdateServer/main/changelogs/BKStructural.md</changelog>
+
+                    <!-- ④ false = cho phép bỏ qua / true = bắt buộc -->
+                    <mandatory>false</mandatory>
+
+                </release>
+
+            </releases>
+
+        </app>
+
+    </apps>
+
+</updateServer>
