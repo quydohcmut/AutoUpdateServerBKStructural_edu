@@ -57,9 +57,9 @@ QUAN TRỌNG:
              - Có thể cập nhật <changelog>
              ================================================= -->
 
-        <app id="BKStructural">
+        <app id="BIM_STRUCTURAL_TOOLS_EDUCATION">
 
-            <name>BK Structural Tools</name>
+            <name>BKStructuralTools</name>
 
             <releases>
 
@@ -87,7 +87,7 @@ QUAN TRỌNG:
                 <release>
 
                     <!-- ① SỬA PHIÊN BẢN TẠI ĐÂY -->
-                    <version>1.0.1.0</version>
+                    <version>1.0.0.0</version>
 
                     <!-- ② SỬA LINK ZIP DROPBOX TẠI ĐÂY -->
                     <url>https://www.dropbox.com/URL-GOI-UPDATE?dl=1</url>
