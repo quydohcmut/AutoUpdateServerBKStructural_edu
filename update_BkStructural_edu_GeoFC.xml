@@ -60,9 +60,9 @@ QUAN TRỌNG:
              - Có thể cập nhật <changelog>
              ================================================= -->
 
-        <app id="BIM_STRUCTURAL_TOOLS_EDUCATION_SPC">
+        <app id="BIM_STRUCTURAL_TOOLS_EDUCATION_GEOFC">
 
-            <name>BKStructuralTools.SPC_Education </name>
+            <name>BKStructuralGeoFCTools_Education </name>
 
             <releases>
 
