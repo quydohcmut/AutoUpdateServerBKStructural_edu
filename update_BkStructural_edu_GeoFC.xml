@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <item>
-    <version>1.0.0.0</version>
-    <url>https://dl.dropboxusercontent.com/scl/fi/qvuohy1c1up1chmghzeq0/GeoFC.zip?rlkey=9mwlh0gz1q044tx5jpzboarvu</url>
+    <version>1.0.0.1</version>
+    <url>https://dl.dropboxusercontent.com/scl/fi/d8qe0lu80als7upej0uc7/GeoFC.zip?rlkey=wgbo9v0jggafzqn7zpu4tw87v</url>
     <changelog>https://raw.githubusercontent.com/quydohcmut/AutoUpdateServer/main/changelogs/BKStructural.md</changelog>
     <mandatory>false</mandatory>
 </item>
