@@ -7,9 +7,9 @@
 - Vá lỗi nút bấm tính toán biểu đồ tương tác cột hàng loạt chưa hoạt động trên một số máy tính.
 
 ## 📦 Hướng dẫn cập nhật
-- Cách 1:
+- Cách 1: Cập nhật tự động trên phiên bản cũ.
 
-- Cách 2: Tải từ link google drive: 
+- Cách 2: Tải từ link google drive: "https://drive.google.com/drive/folders/1mcnNfOQPZ-yKY5ow7rzk3KePvMpTYpIv?hl=vi"
 
 ## ✨ Mới
 
