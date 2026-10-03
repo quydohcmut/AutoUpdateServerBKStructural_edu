@@ -1,4 +1,4 @@
-# 🚀 BK_Structural_Tools_edueditionRelease v1.0.0.1
+# 🚀 BK_Structural_Tools_edu Release v1.0.0.1
 
 **Ngày phát hành:** 03/10/2026
 
