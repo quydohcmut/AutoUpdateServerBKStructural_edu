@@ -1,15 +1,15 @@
-# 🚀 BK_Structural_Tools_edu Release v1.0.0.1
+# BK_Structural_Tools_edu Release v1.0.0.3
 
-**Ngày phát hành:** 30/10/2026
+**Ngày phát hành:** 17/11/2026
 
-## 🐛 Sửa lỗi
+## Sửa lỗi
+- Cập nhật sửa lỗi đơn vị
 
-
-## 📦 Hướng dẫn cập nhật
+## Hướng dẫn cập nhật
 - Cách 1: Cập nhật tự động trên phiên bản cũ (khuyến nghị).
 - 
 ## ✨ Mới
-- Cập nhật tương thích GeoFC_edu v1.0.1 phát hành sắp tới (dự kiến 02/11/2026)
+-
 
 ## 🙏 Cảm ơn
 
